@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Quiz para programadores</title>
+        <meta name="description" content="Um quiz interativo para testar seus conhecimentos">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Quiz interativo para programadores</h1>
+            <p>Teste seus conhecimentos em programação e veja qual pontuação você consegue fazer!</p>
+        </header>
+        <main>
+            <!--catacumba-->
+            <section>
+                <h2>Sobre esse quiz</h2>
+                <p><strong>Este quiz</strong> foi desenvolvido  para testar seus conhecimentos em programação, como <em>linguagens de programação</em>, conceitos basicos  e mais</p>
+                <p>Você encontrará diferentes tipos de perguntas, incluindo múltipla escolha, texto e perguntas de data. <br> Desafie-se com este quiz!</p>
+                <p>VocÊ poderá encotrar alguns acrônimos como <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">css</abbr>, que são comumente usados em questões relacionadas ao desenvolvimento wec</p>
+            </section>
+            <!--pergunta 1: múltipla escolha-->
+            <section>
+                <h2>Pergunta 1: Qual Linguagem é usada para estruturar páginas web?</h2>
+                <form>
+                    <input type="radio" value="python" id="p1a"
+                    name="pergunta1">
+                    <label for="p1a">Python</label> <br>
+                    <input type="radio" value="HTML" id="p1b"
+                    name="pergunta1">
+                    <label for="p1b">HTML</label> <br>
+                    <input type="radio" value="Javascript" id="p1c"
+                    name="pergunta1">
+                    <label for="p1c">Javascript</label> <br>
+                    <input type="radio" value="Ruby" id="p1d"
+                    name="pergunta1">
+                    <label for="p1d">Ruby</label>
+                </form>
+            </section>
+            <!--pergunta 2; texto -->
+            <section>
+                <h2>Pergunta 2: Na URL https://www.google.com o trecho "google.com" é o___</h2>
+                <form>
+                    <input type="Texto" id="p2" name="pergunta2" placeholder="Digite sua resposta aqui">
+                </form>
+                <!--Pergunta 3: senha-->
+                <section>
+                    <h2>Pergunta 3: Escreva um exemplo de senha forte</h2>
+                    <form>
+                        <input type="password" id="p3" name="pergunta3" placeholder="Digite uma senha ...">
+                    </form>
+                </section>
+                <!--pergunta 4: data-->
+                <section>
+                    <h2>Pergunta 4: Em que ano HTML lançou sua primeira versão?</h2>
+                    <form>
+                        <input type="date" id="p4" name="pergunta4">
+                    </form>
+                </section>
+                <!--Pergunta 5: seleção múltipla-->
+                <section>
+                    <h2>Pergunta 5: Quais dessas tecnologias são consideradas linguagens de programação?</h2>
+                    <form>
+                        <input type="checkbox" value="Javascript" id="p5a"
+                        name="pergunta5">
+                        <label for="p5a">Javascript</label> <br>
+                        <input type="checkbox" value="HTML" id="p5b"
+                        name="pergunta5">
+                        <label for="p5b">HTML</label> <br>
+                        <input type="checkbox" value="css" id="p5c"
+                        name="pergunta5">
+                        <label for="p5c">CSS</label> <br>
+                        <input type="checkbox" value="C++" id="p5d"
+                        name="pergunta5">
+                        <label for="p5d">C++</label>
+                    </form>
+                </section>
+                <!--Pergunta 6: -->
+                <section>
+                    <h2>Pergunta 6: Faça o upload de um arquivo contendo código HTML</h2>
+                    <form>
+                        <input type="file"  id="p6a"
+                        name="pergunta6">
+                        <label for="p6a">Estilizar páginas web</label> <br>
+                        </form>
+                </section>
+                <!--Pergunta 7: Menu suspenso-->
+                <section>
+                    <h2>Pergunta 7: Selecione o atributo do inpot que define seu tipo:</h2>
+                    <form>
+                        <select id="p7" name="pergunta7">
+                            <option value="id">id</option>
+                            <option value="type">type</option>
+                            <option value="placeholder">placeholder</option>
+                            <option value="form">form</option>
+                        </select>
+                    </form>
+                </section>
+                <!--Pergunta 8: Qual linguagem de programação é representada pelo logotipo abaixo?-->
+                <section>
+                    <h2>Pergunta 8: Qual linguagem de programação é representada pelo logotipo abaixo?</h2>
+                    <figure>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="Logo do Javascript"> <figcaption>Figura 1: Logotipo de uma linguagem de programação</figcaption>
+                    </figure>
+                    <form>
+                        <input type="radio" value="Python" id="p8a"
+                        name="pergunta8">
+                        <label for="p8a">Python</label> <br>
+                        <input type="radio" value="Javascript" id="p8b"
+                        name="pergunta8">
+                        <label for="p8b">Javascript</label> <br>
+                        <input type="radio" value="Java" id="p8c"
+                        name="pergunta8">
+                        <label for="p8c">Java</label> <br>
+                        <input type="radio" value="Ruby" id="p8d"
+                        name="pergunta8">
+                        <label for="p8d">Ruby</label>
+                    </form>
+                    <!--Tabela de pontuação-->
+                    <section>
+                        <h2>Pontuação</h2>
+                        <table border="1">
+                            <thead>
+                              <tr>
+                                <th>Pontuação</th>
+                                <th>Avaliação</th>
+                              </tr>
+                            </thead>
+                              <tr>
+                                <td>0-2</td>
+                                <td>Não foi desta vez</td>
+                              </tr>
+                              <tr>
+                                <td>3-5</td>
+                                <td>Estude um pouco mais</td>
+                              </tr>
+                              <tr>
+                                <td>5-7</td>
+                                <td>Esta melhorando</td>
+                              </tr>
+                              <tr>
+                                <td>8</td>
+                                <td>Muito bem</td>
+                              </tr>
+                            <tbody>
+                                <tfoot>
+                                    <td colspan="2">Boa sorte na Proxima!</td>
+                                </tfoot>
+                             
+                        </tbody>
+                        </table>
+                        <!--Lista de Respostas-->
+                        <section>
+                            <h2>Verifique suas respostas</h2>
+                            <details>
+                                <summary>Click aqui para ver as respostas</summary>
+                                <ol>
+                                   <li>HTML</li>
+                                   <li>Domínio</li>
+                                   <li>Qualquer senha com 8 ou mais caracteres, incluindo letras, números e caracteres especiais</li>
+                                   <li>1991</li>
+                                   <li>Javascript, Java</li>
+                                   <li>Arquivo de código HTML</li>
+                                   <li>type</li>
+                                   <li>Javascript</li>
+                                </ol>
+                            </details>
+                            <!--Formulario de Feedback-->
+                            <section>
+                                <h2>Deixe seu feedback</h2>
+                                <form>
+                                    <fieldset>
+                                        <legend>Informações de contato</legend>
+                                      <input type="Nome" id="Nome" name="Nome" placeholder="Digite seu nome"> <br>
+                                      <input type="Email" id="Email" name="Email" placeholder="Digite seu email"> <br>
+                                      <label for="feedback">Deixe seu feedback sobre este quiz:</label> <br>
+                                      <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea> <br>
+                                      <input type="submit" value="Enviar">
+                                    </fieldset>
+                                </form>
+        </main>
+        <footer>
+            <p>&copy; 2021 Quiz interativo para programadores. Todos os direitos reservados.
+            </p>
+            <p>Desenvolvido por: Andre Rodrigo https://www.linkedin.com/in/andre-r-151752135/ </p>
+    </body>
+</html>
